@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Page title displayed in the browser tab -->
+  <title>UOB Student Nationalities</title>
+  
+  <!-- Link to an external stylesheet (Pico CSS for styling) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css" />
+</head>
+<body>
+  <!-- Main container for page content -->
+  <main class="container">
+    <!-- Page header -->
+    <h1>UOB Student Nationalities</h1>
+    
+    <!-- Table to display data dynamically -->
+    <table>
+      <thead>
+        <!-- Table headers -->
+        <tr>
+          <th>Year</th>
+          <th>Semester</th>
+          <th>The Programs</th>
+          <th>Nationality</th>
+          <th>Colleges</th>
+          <th>Number of Students</th>
+        </tr>
+      </thead>
+      <tbody id="data-table-body">
+        <!-- This section will be dynamically filled with data fetched from the API -->
+      </tbody>
+    </table>
+  </main>
+
+  <!-- Link to the JavaScript file that handles data fetching and insertion -->
+  <script src="a3JS.js"></script>
+</body>
+</html>
